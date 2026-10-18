@@ -1,0 +1,20 @@
+# Archivos generados por Android Studio
+.gradle/
+**/build/
+**/.cxx/
+
+# Configuración local
+local.properties
+**/local.properties
+
+# Archivos del IDE
+.idea/
+*.iml
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp

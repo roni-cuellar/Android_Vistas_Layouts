@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="56dp" android:background="#212121" android:gravity="center_vertical" android:paddingStart="16dp" android:text="Calculadora" android:textColor="#FFFFFF" android:textSize="18sp"/>
+    <TextView android:layout_height="wrap_content" android:text="0" android:id="@+id/display" android:layout_width="match_parent" android:gravity="end" android:padding="18dp" android:textSize="28sp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp" android:background="#111111">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/key1" android:text="1" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+            <Button android:id="@+id/key2" android:text="2" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+            <Button android:id="@+id/key3" android:text="3" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+            <Button android:id="@+id/keyPlus" android:text="+" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/key4" android:text="4" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+            <Button android:id="@+id/key5" android:text="5" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+            <Button android:id="@+id/key6" android:text="6" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+            <Button android:id="@+id/keyEquals" android:text="=" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/key7" android:text="7" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+            <Button android:id="@+id/key8" android:text="8" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+            <Button android:id="@+id/key9" android:text="9" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+            <Button android:id="@+id/keyClear" android:text="C" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/key0" android:text="0" android:layout_width="0dp" android:layout_weight="1" android:layout_height="62dp" android:layout_margin="3dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

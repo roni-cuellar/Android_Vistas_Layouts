@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="56dp" android:background="#4053B5" android:gravity="center_vertical" android:paddingStart="16dp" android:text="My Application" android:textColor="#FFFFFF" android:textSize="18sp"/>
+    <ImageView android:layout_width="54dp" android:layout_height="54dp" android:layout_gravity="center" android:layout_marginTop="18dp" android:contentDescription="Icono Android" android:src="@android:drawable/ic_menu_info_details"/>
+    <Space android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Text 1" android:textSize="13sp"/>
+            <EditText android:id="@+id/inputOne" android:layout_height="wrap_content" android:hint="EditText" android:inputType="text" android:layout_width="0dp" android:layout_weight="1" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Text 2" android:textSize="13sp"/>
+            <EditText android:id="@+id/inputTwo" android:layout_height="wrap_content" android:hint="EditText" android:inputType="text" android:layout_width="0dp" android:layout_weight="1" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:orientation="horizontal" android:layout_marginTop="16dp">
+            <Button android:id="@+id/btnOff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OFF"/>
+            <Button android:id="@+id/btnOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ON"/>
+        </LinearLayout>
+        <RatingBar android:id="@+id/rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:rating="4" android:stepSize="1" android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

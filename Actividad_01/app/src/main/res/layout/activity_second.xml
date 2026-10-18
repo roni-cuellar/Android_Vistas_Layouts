@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="56dp" android:background="#008577" android:gravity="center_vertical" android:paddingStart="16dp" android:text="Switching Between Activities" android:textColor="#FFFFFF" android:textSize="18sp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Second Activity" android:layout_gravity="center" android:layout_marginTop="140dp"/>
+    <Button android:id="@+id/btnBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BACK TO FIRST ACTIVITY" android:layout_gravity="center" android:layout_marginTop="50dp"/>
+</LinearLayout>
